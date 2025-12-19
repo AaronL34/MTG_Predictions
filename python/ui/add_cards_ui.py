@@ -8,6 +8,7 @@ def add_new_card_ui():
     tk.Label(top, text="Color").grid(row=0, column=0, padx=5, pady=5)
     tk.Label(top, text="Type").grid(row=0, column=2, padx=5, pady=5)
     tk.Label(top, text="Description").grid(row=1, column=0, padx=5, pady=5)
+    tk.Text(top, height=6, width=20).grid(row=2, column=0, padx=5, pady=5)
 
     tk.Button(top, text="Close", command=top.destroy).grid(row=4, column=0, padx=5, pady=5)
 
